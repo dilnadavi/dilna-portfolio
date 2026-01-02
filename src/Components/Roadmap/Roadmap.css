@@ -1,0 +1,265 @@
+.timeline {
+    align-items: center;
+    justify-content: center;
+    margin-top: 150px;
+    flex-shrink: 0;
+    position: relative;
+    width: 100%;
+}
+
+.roadmap-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    flex-shrink: 0;
+}
+
+.roadmap-lines {
+    width: 400px;
+    max-width: 90vw;
+}
+
+.tab-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.tab {
+    position: relative;
+}
+
+.red-tab   { top: 0; left: 0; }
+.purple-tab{ top: 0; left: 0; }
+.pink-tab  { top: 0; left: 0; }
+.blue-tab  { top: 0; left: 0; }
+
+.tab-icon {
+    width: 40px;
+    cursor: pointer;
+    transition: transform 0.15s ease;
+}
+
+.tab-icon:hover {
+    transform: scale(1.1);
+}
+
+.tab-icon[data-color="red"]:hover {
+    content: url("../../assets/red_diamond.png");
+}
+
+.tab-icon[data-color="purple"]:hover {
+    content: url("../../assets/purple_diamond.png");
+}
+
+.tab-icon[data-color="pink"]:hover {
+    content: url("../../assets/pink_diamond.png");
+}
+
+.tab-icon[data-color="blue"]:hover {
+    content: url("../../assets/blue_diamond.png");
+}
+
+.tab-content {
+    margin-top: 40px;
+    text-align: center;
+    font-size: 1.2rem;
+    color: #333;
+}
+
+.fade-in {
+    opacity: 0;
+    animation: fadeIn 0.35s ease forwards;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(4px); }
+    to   { opacity: 1; transform: translateY(0); }
+}
+
+@media (max-width: 900px) {
+    .roadmap-lines {
+        width: 70vw;
+    }
+
+    .tab-icon {
+        width: 6vw;
+        max-width: 32px;
+    }
+
+    .tab-row {
+        gap: 6vw;
+    }
+}
+
+@media (max-width: 600px) {
+    .roadmap-lines {
+        width: 85vw;
+    }
+
+    .tab-icon {
+        width: 8vw;
+        max-width: 28px;
+    }
+
+    .tab-row {
+        gap: 8vw;
+    }
+}
+
+.ubc-card {
+    background: white;
+    padding: 5px;
+    border-radius: 30px;
+    max-width: 300px;
+    margin: 15px auto;
+    text-align: center;
+}
+
+.ubc-card-logo {
+    width: 300px;
+    height: auto;
+}
+
+.biology-logo {
+    width: 300px;
+    height: 120px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.biology-logo::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-image: url("../../assets/biology_logo.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 1;
+    transition: opacity 0.35s ease;
+}
+
+.biology-logo::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-image: url("../../assets/biology_ani_logo.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0;
+    transition: opacity 0.35s ease;
+}
+
+.biology-logo:hover::before {
+    opacity: 0;
+}
+
+.biology-logo:hover::after {
+    opacity: 1;
+}
+
+.pink-gallery {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    gap: 10px;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.pink-card {
+    flex: 1;
+    height: 130px;
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 0 12px;
+    gap: 12px;
+
+    transition:
+        flex 0.45s ease,
+        transform 0.45s ease,
+        justify-content 0.45s ease;
+
+    cursor: pointer;
+}
+
+.cs-logo {
+    width: 300px;
+    height: auto;
+    flex-shrink: 0;
+}
+
+.pink-logo {
+    width: 50px;
+    height: auto;
+    flex-shrink: 0;
+    padding-left: 1rem;
+    transition: transform 0.45s ease;
+}
+
+.pink-text {
+    opacity: 0;
+    width: 0;
+    overflow: hidden;
+    white-space: nowrap;
+    font-size: 1rem;
+    font-weight: 500;
+    transition: opacity 0.3s ease, width 0.3s ease;
+}
+
+.pink-gallery:hover .pink-card {
+    flex: 0.5;
+}
+
+.pink-gallery .pink-card:hover {
+    flex: 3;
+    transform: scale(1.02);
+    justify-content: flex-start;
+}
+
+.pink-gallery .pink-card:hover .pink-logo {
+    transform: scale(1.2);
+    padding-left: 1rem;
+}
+
+.pink-gallery .pink-card:hover .pink-text {
+    opacity: 1;
+    width: auto;
+}
+
+.pink-text-block {
+    display: flex;
+    flex-direction: column;
+    opacity: 0;
+    width: 0;
+    overflow: hidden;
+    transition: opacity 0.3s ease, width 0.3s ease;
+}
+
+.pink-card:hover .pink-text-block {
+    opacity: 1;
+    width: auto;
+}
+
+.pink-text-block span {
+    font-size: 1rem;
+    font-weight: 500;
+    white-space: nowrap;
+}
+
+.gsc-big {
+    width: 90px;
+    height: auto;
+}
