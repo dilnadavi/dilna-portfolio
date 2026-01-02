@@ -24,7 +24,7 @@
   border-radius: 16px;
   padding: 24px;
   gap: 14px;
-  height: 100px;
+  height: 120px;
   width: 500px;
   margin: 0px auto;
   flex-wrap: wrap;
@@ -43,7 +43,7 @@
 .project-description {
   font-size: 0.75rem;
   line-height: 1;
-  margin: 4px 0;
+  margin: 1px 0;
 }
 
 .tech-row {
@@ -62,21 +62,41 @@
 
 .tech-tag {
   border: black 1px solid;
-  padding: 4px 5px 4px 20px;
+  padding: 4px 5px 2px 5px;
   border-radius: 6px;
-  font-size: 0.75rem;
+  font-size: 0.70rem;
   transition: background 0.4s ease;
 }
 
 .project-preview {
   flex: 1;
-  width: 100%;;
+  width: 400px;
   overflow: hidden;
 }
 
 .project-preview img {
-  height: 100px;
-  width: 320px;
+  height: 130px;
+  width: 200px;
   object-fit: cover;
-  object-position: top;
+  object-position: left;
+}
+
+.dots-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 12px;
+  gap: 8px;
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  background: #ccc;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.active-dot {
+  background: black;
 }
