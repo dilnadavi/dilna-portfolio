@@ -29,7 +29,7 @@ const Roadmap = () => {
 if (activeTab === "red") {
   activeContent = (
     <div>
-        <p>Started my journey as a bsc student at</p>
+        <p className="above2022subtext">STARTED MY JOURNEY AS A BSC STUDENT AT</p>
     <div className="ubc-card">
       <img src={ubcLogo} className="ubc-card-logo" />
     </div>
@@ -39,11 +39,11 @@ if (activeTab === "red") {
 
   if (activeTab === "blue") {
     activeContent = (
-        <div>
-            <p>While taking a mandatory coding elective as a</p>
+        <div className="section2023">
+            <p className="above2023subtext">WHILE TAKING A MANDATORY CODING ELECTIVE AS A</p>
             <div className="biology-logo">
             </div>
-            <p>major, I discovered my love for Computer Science.</p>
+            <p className="below2023subtext">MAJOR, I DISCOVERED MY LOVE FOR COMPUTER SCIENCE.</p>
       </div>
     );
   }
@@ -51,9 +51,9 @@ if (activeTab === "red") {
   if (activeTab === "purple") {
     activeContent = (
       <div>
-        <p>Certain of my passion, I transferred into</p>
+        <p className="above2024subtext">CERTAIN OF MY PASSION, I TRANSFERRED INTO</p>
         <img src={csLogo} className="cs-logo" />
-        <p>and still love it to this day!</p>
+        <p className="below2024subtext">AND NEVER LOOKED BACK!</p>
       </div>
     );
   }
@@ -65,28 +65,28 @@ if (activeTab === "pink") {
       <div className="pink-card">
         <img src={gscLogo} className="pink-logo gsc-big" />
         <div className="pink-text-block"> 
-            <span>SWE Intern</span> 
-            <span>Sept. 2025 to</span> 
-            <span>Apr. 2026</span> 
+            <span className="pink-text-block-position">SWE INTERN</span> 
+            <span className="pink-text-block-date">SEPT. 2025 TO</span> 
+            <span className="pink-text-block-date">APR. 2026</span> 
             </div>
       </div>
 
       <div className="pink-card">
         <img src={ubcSmallLogo} className="pink-logo" />
         <div className="pink-text-block"> 
-            <span className="pink-text">CBTF Proctor</span>
-            <span>Sept. 2025 to</span> 
-            <span>Apr. 2026</span> 
+            <span className="pink-text-block-position">CBTF PROCTOR</span>
+            <span className="pink-text-block-date">SEPT. 2025 TO</span> 
+            <span className="pink-text-block-date">APR. 2026</span> 
         </div>
       </div>
 
       <div className="pink-card">
         <img src={gdscLogo} className="pink-logo" />
         <div className="pink-text-block"> 
-            <span className="pink-text">Marketing &</span>
-            <span className="pink-text">Design Lead</span>
-            <span>Sept. 2025 to</span> 
-            <span>Apr. 2026</span> 
+            <span className="pink-text-block-position">MARKETING &</span>
+            <span className="pink-text-block-position">DESIGN LEAD</span>
+            <span className="pink-text-block-date">SEPT. 2025 TO</span> 
+            <span className="pink-text-block-date">APR. 2026</span> 
         </div>
       </div>
 
@@ -95,6 +95,7 @@ if (activeTab === "pink") {
 }
 
   return (
+    <div className="timeline-card">
     <div className="timeline">
       <div className="tab-row">
         <div className="tab red-tab">
@@ -142,6 +143,7 @@ if (activeTab === "pink") {
       <div key={activeTab} className="tab-content fade-in">
         {activeContent}
       </div>
+    </div>
     </div>
   );
 };
