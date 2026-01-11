@@ -1,18 +1,17 @@
 .timeline-card {
   background: transparent;
   border-radius: 16px;
-  padding: 24px;
-  margin: 0px auto 20px auto;
-  width: 500px;
-  height: 400px;
+  margin: 0px auto 0px auto;
+  width: 320px;
+  height: 300px;
+  display: flex;
 }
 .timeline {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    margin-top: 150px;
-    width: 500px;
+    width: 300px;
 }
 
 .roadmap-content {
@@ -23,29 +22,24 @@
     flex-shrink: 0;
 }
 
-.roadmap-lines {
-    width: 400px;
-    max-width: 90vw;
-}
-
 .tab-row {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 40px;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
     position: relative;
-    width: 500px;
+    width: 300px;
 }
 
 .tab {
     position: relative;
 }
 
-.red-tab   { top: 0; left: 0; }
-.purple-tab{ top: 0; left: 0; }
-.pink-tab  { top: 0; left: 0; }
-.blue-tab  { top: 0; left: 0; }
+.red-tab   { top: 55px; left: -30px; }
+.purple-tab{ top: 55px; left: 30px; }
+.pink-tab  { top: 85px; left: 60px; }
+.blue-tab  { top: 85px; left: -5px; }
 
 .tab-icon {
     width: 40px;
@@ -148,7 +142,7 @@
     justify-content: center;
     align-items: stretch;
     gap: 10px;
-    width: 400px;
+    width: 360px;
     margin: 0 auto;
 }
 
@@ -277,4 +271,34 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+
+.line-1 {
+  position: absolute;
+  top: 95px;
+  left: 20px;
+  width: 60px;
+  height: 0.5px;
+  background: #999;
+  transform: rotate(18deg);
+}
+
+.line-2 {
+  position: absolute;
+  top: 100px;
+  left: 130px;
+  width: 60px;
+  height: 0.5px;
+  background: #999;
+  transform: rotate(-22deg);
+}
+
+.line-3 {
+  position: absolute;
+  top: 100px;
+  left: 245px;
+  width: 60px;
+  height: 0.5px;
+  background: #999;
+  transform: rotate(18deg);
 }

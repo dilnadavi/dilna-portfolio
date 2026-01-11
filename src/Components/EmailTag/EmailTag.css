@@ -3,7 +3,9 @@
     border-radius: 16px;
     padding: 24px;
     margin: 0px auto 20px auto;
-    width: 500px;
+    min-width: 300px;
+    max-width: 500px;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
