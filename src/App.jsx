@@ -4,6 +4,8 @@ import Header from './Components/Header/Header.jsx'
 import Roadmap from './Components/Roadmap/Roadmap.jsx'
 import Projects from './Components/Projects/Projects.jsx'
 import Extra from './Components/Extra/Extra.jsx'
+import EmailTag from './Components/EmailTag/EmailTag.jsx'
+import Footer from './Components/Footer/Footer.jsx'
 
 const App = () => {
   return (
@@ -13,6 +15,8 @@ const App = () => {
       <Roadmap />
       <Projects/>
       <Extra/>
+      <EmailTag/>
+      <Footer/>
     </div>
   )
 }

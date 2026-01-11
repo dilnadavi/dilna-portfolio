@@ -1,0 +1,29 @@
+.email-tag{
+    background: transparent;
+    border-radius: 16px;
+    padding: 24px;
+    margin: 0px auto 20px auto;
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.email-tag p{
+    font-size: 0.8rem;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.email-tag a{
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: black;
+    background: linear-gradient(90deg, #f8634c, #69c4f8, #b9a4d7, #f196cb);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

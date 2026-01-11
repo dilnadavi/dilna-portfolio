@@ -19,7 +19,7 @@
 
 .projects-line {
   width: 200px;
-  height: 1px;
+  height: 0.5px;
   background: black;
 }
 
@@ -27,7 +27,7 @@
   display: flex;
   align-items: cen;
   justify-content: space-between;
-  background: #f9f9f9;
+  background: #ffffff;
   border-radius: 16px;
   padding: 24px;
   gap: 14px;
@@ -68,7 +68,7 @@
 }
 
 .tech-tag {
-  border: black 1px solid;
+  border: black 0px solid;
   padding: 4px 5px 2px 5px;
   border-radius: 6px;
   font-size: 0.70rem;
