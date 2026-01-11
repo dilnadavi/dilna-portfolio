@@ -12,11 +12,10 @@ const Header = () => {
         <img
           className="name-logo"
           src={name_logo}
-          alt="Dilna"
         />
 
         <h2 className="subtitle">
-           a BSc Computer Science student exploring software, <span>impact</span>, and innovation.
+           <p className='about-me-description'>a BSc Computer Science student exploring software, <span>impact</span>, and innovation.</p>
         </h2>
       </div>
 
