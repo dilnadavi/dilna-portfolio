@@ -107,3 +107,71 @@
 .active-dot {
   background: black;
 }
+
+/* Mobile / small screens */
+@media (max-width: 600px) {
+  .project-card {
+    flex-direction: column;
+    height: auto;
+    width: 90%;
+    align-items: center;
+    text-align: center;
+  }
+
+  .project-info {
+    width: 100%;
+  }
+
+  .project-preview {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .project-preview img {
+    width: 100%;
+    height: auto;
+    max-width: 250px;
+  }
+}
+
+/* Ultra‑small screens (320px and up) */
+@media (max-width: 360px) {
+  .project-card {
+    flex-direction: column;
+    width: 95%;
+    height: auto;
+    padding: 16px;
+    gap: 12px;
+    text-align: center;
+  }
+
+  .project-info {
+    width: 100%;
+  }
+
+  .project-header-text {
+    font-size: 1rem;
+  }
+
+  .project-description {
+    font-size: 0.7rem;
+  }
+
+  .project-preview {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .project-preview img {
+    width: 100%;
+    max-width: 220px;
+    height: auto;
+    object-fit: cover;
+  }
+
+  .tech-row {
+    justify-content: center;
+  }
+}
