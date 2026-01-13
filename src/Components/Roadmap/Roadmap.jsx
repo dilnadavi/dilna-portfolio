@@ -1,9 +1,7 @@
 import "./Roadmap.css";
-import lines from '../../assets/lines.svg';
 
 import blueDiamond from '../../assets/blue_diamond.png';
 import blueCircle from '../../assets/blue_circle.png';
-import biologyLogo from '../../assets/biology_logo.png';
 
 import redDiamond from '../../assets/red_diamond.png';
 import redCircle from '../../assets/red_circle.png';
@@ -140,7 +138,6 @@ if (activeTab === "pink") {
       </div>
 
       <div className="roadmap-content">
-        <img className="roadmap-lines" src={lines} />
       </div>
 
       <div key={activeTab} className="tab-content fade-in">
