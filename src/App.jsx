@@ -10,13 +10,15 @@ import Footer from './Components/Footer/Footer.jsx'
 const App = () => {
   return (
     <div>
-      {/* <Navbar /> */}
-      <Header />
-      <Roadmap />
-      <Projects/>
-      <Extra/>
-      <EmailTag/>
-      <Footer/>
+    <Navbar />
+    <div className="page-wrapper">
+      <div id="header"><Header /></div>
+      <div id="roadmap"><Roadmap /></div>
+      <div id="projects"><Projects /></div>
+      <div id="extra"><Extra /></div>
+      <EmailTag />
+      <Footer />
+    </div>
     </div>
   )
 }
