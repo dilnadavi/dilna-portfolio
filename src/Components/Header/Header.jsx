@@ -1,6 +1,6 @@
 import React from 'react'
 import './Header.css'
-import illustration from '../../assets/temp_icon.png'
+import illustration from '../../assets/portfolio_sketch.png'
 import name_logo from '../../assets/name_logo.png'
 import linkedin_icon from '../../assets/linkedin_logo.png' 
 import github_icon from '../../assets/github_logo.png'

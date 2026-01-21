@@ -14,7 +14,7 @@ const App = () => {
     <div className="page-wrapper">
       <div id="header"><Header /></div>
       <div id="roadmap"><Roadmap /></div>
-      {/* <div id="projects"><Projects /></div> */}
+      <div id="projects"><Projects /></div>
       <div id="extra"><Extra /></div>
       <EmailTag />
       <Footer />
