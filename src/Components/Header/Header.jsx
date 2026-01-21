@@ -17,8 +17,13 @@ const Header = () => {
         />
 
         <h2 className="subtitle">
-           <p className='about-me-description'>a BSc Computer Science student exploring software, <span>impact</span>, and innovation.</p>
-                     <div className="social-icons">
+          <p className='about-me-description'>
+            a BSc Computer Science student exploring 
+            <span className="code-font">software,</span> 
+            <span className='impact-font'>impact</span>, and 
+            <span className="segoe-font"> innovation</span>.
+          </p>
+          <div className="social-icons">
             <a href="https://www.linkedin.com/in/dilna-davi/" target="_blank" rel="noopener noreferrer">
               <img src={linkedin_icon} className="icon" />
             </a>
