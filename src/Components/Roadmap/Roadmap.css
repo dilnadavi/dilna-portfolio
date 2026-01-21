@@ -239,7 +239,17 @@
 .gsc-big {
     width: 90px;
     height: auto;
+    padding-right: 0;
 }
+
+.pink-card:first-child:hover .gsc-big {
+  width: 87px;
+}
+
+.pink-card:first-child {
+  gap: 0px;
+}
+
 
 .above2022subtext {
     font-size: 0.60rem;
