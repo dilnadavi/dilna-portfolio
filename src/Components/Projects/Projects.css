@@ -17,12 +17,12 @@
 }
 
 .projects-header-logo {
-  width: 110px;
+  width: 130px;
 }
 
 .projects-line {
   flex: 1;
-  min-width: 100px;
+  min-width: 50px;
   max-width: 200px;
   height: 0.5px;
   background: black;

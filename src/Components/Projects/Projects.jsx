@@ -1,6 +1,6 @@
 import React from 'react'
 import './Projects.css'
-import projectsLogo from '../../assets/projects_logo.png'
+import projectsLogo from '../../assets/projects_logo_alt.png'
 
 import sectionsInsightPreview from '../../assets/sectionsinsight.png'
 import typeScriptLogo from '../../assets/stack_logos/typescript.png'
