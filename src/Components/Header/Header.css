@@ -65,3 +65,9 @@
 .icon:hover {
   transform: scale(1.15);
 }
+
+@media (max-width: 500px) {
+  .illustration {
+    margin-left: 0;
+  }
+}
