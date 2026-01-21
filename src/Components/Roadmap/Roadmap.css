@@ -36,9 +36,9 @@
     position: relative;
 }
 
-.red-tab   { top: 55px; left: -30px; }
+.red-tab   { top: 55px; left: -34px; }
 .purple-tab{ top: 55px; left: 30px; }
-.pink-tab  { top: 85px; left: 56px; }
+.pink-tab  { top: 85px; left: 53px; }
 .blue-tab  { top: 85px; left: -5px; }
 
 .tab-icon {
