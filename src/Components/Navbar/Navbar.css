@@ -11,9 +11,10 @@
 }
 
 .navbar-box {
-  background: #f2f2f2;
+  background: #ffff;
   border-radius: 20px;
   padding: 10px 20px;
+  margin-bottom: 0px;
   width: 300px;
   display: flex;
   justify-content: center;
