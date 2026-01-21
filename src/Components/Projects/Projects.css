@@ -12,6 +12,8 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  min-width: 320px;
+  margin: 0 auto;
 }
 
 .projects-header-logo {
@@ -98,6 +100,7 @@
 
 .dots-container {
   display: flex;
+  width: 100%;
   justify-content: center;
   margin-top: 12px;
   gap: 8px;
