@@ -1,19 +1,19 @@
 import React, { useState } from 'react'
 import './Extra.css'
 
-import photoshopLogo from '../../assets/design_logos/photoshop.png'
-import illustratorLogo from '../../assets/design_logos/illustrator.png'
-import indesignLogo from '../../assets/design_logos/indesign.png'
-import figmaLogo from '../../assets/design_logos/figma.png'
-import afterEffectsLogo from '../../assets/design_logos/after_effects.png'
-import premiereProLogo from '../../assets/design_logos/premiere_pro.png'
-import sonyVegasLogo from '../../assets/design_logos/sony_vegas.webp'
+import photoshopLogo from '../../assets/design_logos/webp/photoshop.webp'
+import illustratorLogo from '../../assets/design_logos/webp/illustrator.webp'
+import indesignLogo from '../../assets/design_logos/webp/indesign.webp'
+import figmaLogo from '../../assets/design_logos/webp/figma.webp'
+import afterEffectsLogo from '../../assets/design_logos/webp/after_effects.webp'
+import premiereProLogo from '../../assets/design_logos/webp/premiere_pro.webp'
+import sonyVegasLogo from '../../assets/design_logos/webp/sony_vegas.webp'
 
-import carlLutzPoster from '../../assets/designs/carl_lutz.jpg'
-import digestionPoster from '../../assets/designs/digestion_poster.png'
-import dreamingPoster from '../../assets/designs/dreaming_poster.png'
-import muffinsPoster from '../../assets/designs/muffins_poster.png'
-import ramenPoster from '../../assets/designs/ramen_doodle.png'
+import carlLutzPoster from '../../assets/designs/webp/carl_lutz.webp'
+import digestionPoster from '../../assets/designs/webp/digestion_poster.webp'
+import dreamingPoster from '../../assets/designs/webp/dreaming_poster.webp'
+import muffinsPoster from '../../assets/designs/webp/muffins_poster.webp'
+import ramenPoster from '../../assets/designs/webp/ramen_doodle.webp'
 
 const Extra = () => {
   const [selected, setSelected] = useState(null);

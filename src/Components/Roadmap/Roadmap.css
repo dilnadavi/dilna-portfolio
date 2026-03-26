@@ -52,19 +52,19 @@
 }
 
 .tab-icon[data-color="red"]:hover {
-    content: url("../../assets/red_diamond.png");
+    content: url("../../assets/webp/red_diamond.webp");
 }
 
 .tab-icon[data-color="purple"]:hover {
-    content: url("../../assets/purple_diamond.png");
+    content: url("../../assets/webp/purple_diamond.webp");
 }
 
 .tab-icon[data-color="pink"]:hover {
-    content: url("../../assets/pink_diamond.png");
+    content: url("../../assets/webp/pink_diamond.webp");
 }
 
 .tab-icon[data-color="blue"]:hover {
-    content: url("../../assets/blue_diamond.png");
+    content: url("../../assets/webp/blue_diamond.webp");
 }
 
 .tab-content {
@@ -109,7 +109,7 @@
     content: "";
     position: absolute;
     inset: 0;
-    background-image: url("../../assets/biology_logo.png");
+    background-image: url("../../assets/webp/biology_logo.webp");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -121,7 +121,7 @@
     content: "";
     position: absolute;
     inset: 0;
-    background-image: url("../../assets/biology_ani_logo.png");
+    background-image: url("../../assets/webp/biology_ani_logo.webp");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;

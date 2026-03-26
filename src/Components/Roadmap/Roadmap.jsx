@@ -1,21 +1,21 @@
 import "./Roadmap.css";
 
-import blueDiamond from '../../assets/blue_diamond.png';
-import blueCircle from '../../assets/blue_circle.png';
+import blueDiamond from '../../assets/webp/blue_diamond.webp';
+import blueCircle from '../../assets/webp/blue_circle.webp';
 
-import redDiamond from '../../assets/red_diamond.png';
-import redCircle from '../../assets/red_circle.png';
-import ubcLogo from '../../assets/ubc_logo.png';
+import redDiamond from '../../assets/webp/red_diamond.webp';
+import redCircle from '../../assets/webp/red_circle.webp';
+import ubcLogo from '../../assets/webp/ubc_logo.webp';
 
-import purpleDiamond from '../../assets/purple_diamond.png';
-import purpleCircle from '../../assets/purple_circle.png';
-import csLogo from '../../assets/cs_logo.png';
+import purpleDiamond from '../../assets/webp/purple_diamond.webp';
+import purpleCircle from '../../assets/webp/purple_circle.webp';
+import csLogo from '../../assets/webp/cs_logo.webp';
 
-import pinkDiamond from '../../assets/pink_diamond.png';
-import pinkCircle from '../../assets/pink_circle.png';
-import gscLogo from '../../assets/gsc_logo.png';
-import ubcSmallLogo from '../../assets/ubc_small_logo.png';
-import gdscLogo from '../../assets/gdsc_logo.png';
+import pinkDiamond from '../../assets/webp/pink_diamond.webp';
+import pinkCircle from '../../assets/webp/pink_circle.webp';
+import gscLogo from '../../assets/webp/gsc_logo.webp';
+import ubcSmallLogo from '../../assets/webp/ubc_small_logo.webp';
+import gdscLogo from '../../assets/webp/gdsc_logo.webp';
 
 import React, { useState } from 'react';
 

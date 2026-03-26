@@ -1,9 +1,9 @@
 import React from 'react'
 import './Header.css'
-import illustration from '../../assets/portfolio_sketch.png'
-import name_logo from '../../assets/name_logo.png'
-import linkedin_icon from '../../assets/linkedin_logo.png' 
-import github_icon from '../../assets/github_logo.png'
+import illustration from '../../assets/webp/portfolio_sketch.webp'
+import name_logo from '../../assets/webp/name_logo.webp'
+import linkedin_icon from '../../assets/webp/linkedin_logo.webp' 
+import github_icon from '../../assets/webp/github_logo.webp'
 
 const Header = () => {
   return (
