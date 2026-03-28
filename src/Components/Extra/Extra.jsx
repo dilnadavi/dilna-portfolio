@@ -36,13 +36,13 @@ const Extra = () => {
           <h2>a designer.</h2>
 
           <div className="design-logos">
-            <img src={photoshopLogo}/>
-            <img src={illustratorLogo}/>
-            <img src={indesignLogo}/>
-            <img src={figmaLogo}/>
-            <img src={afterEffectsLogo}/>
-            <img src={premiereProLogo}/>
-            <img src={sonyVegasLogo}/>
+            <img src={photoshopLogo} loading="lazy"/>
+            <img src={illustratorLogo} loading="lazy"/>
+            <img src={indesignLogo} loading="lazy"/>
+            <img src={figmaLogo} loading="lazy"/>
+            <img src={afterEffectsLogo} loading="lazy"/>
+            <img src={premiereProLogo} loading="lazy"/>
+            <img src={sonyVegasLogo} loading="lazy"/>
           </div>
 
           <div className="design-carousel">
@@ -52,6 +52,7 @@ const Extra = () => {
                   key={i}
                   src={img}
                   className="carousel-img"
+                  loading="lazy"
                   onClick={() => setSelected(img)}
                 />
               ))}

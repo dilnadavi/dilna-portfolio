@@ -50,14 +50,14 @@ const Projects = () => {
           A browser extension that "sniffs" out suspicious patterns in chat messages with a trained ML model that identifies linguistic patterns common in fraud.
         </p>
         <div className="tech-row">
-          <button className="tech-tag js"><img src={javaScriptLogo}/>JavaScript</button>
-          <button className="tech-tag python"><img src={pythonLogo}/>Python</button>
-          <button className="tech-tag fastapi"><img src={fastapiLogo}/>FastAPI</button>
-          <button className="tech-tag pytorch"><img src={pytorchLogo}/>PyTorch</button>
-          <button className="tech-tag sklearn"><img src={sklearnLogo}/>Scikit-learn</button>
-          <button className="tech-tag html"><img src={htmlLogo}/>HTML</button>
-          <button className="tech-tag css"><img src={cssLogo}/>CSS</button>
-          <button className="tech-tag gemini"><img src={geminiLogo}/>Gemini API</button>
+          <button className="tech-tag js"><img src={javaScriptLogo} loading="lazy"/>JavaScript</button>
+          <button className="tech-tag python"><img src={pythonLogo} loading="lazy"/>Python</button>
+          <button className="tech-tag fastapi"><img src={fastapiLogo} loading="lazy"/>FastAPI</button>
+          <button className="tech-tag pytorch"><img src={pytorchLogo} loading="lazy"/>PyTorch</button>
+          <button className="tech-tag sklearn"><img src={sklearnLogo} loading="lazy"/>Scikit-learn</button>
+          <button className="tech-tag html"><img src={htmlLogo} loading="lazy"/>HTML</button>
+          <button className="tech-tag css"><img src={cssLogo} loading="lazy"/>CSS</button>
+          <button className="tech-tag gemini"><img src={geminiLogo} loading="lazy"/>Gemini API</button>
         </div>
       </div>
       <div className="project-preview">
@@ -72,17 +72,17 @@ const Projects = () => {
           A website to view aggregations of historical UBC course data to aid students in making educated decisions in course selection.
         </p>
         <div className="tech-row">
-          <button className="tech-tag ts"><img src={typeScriptLogo}/>TypeScript</button>
-          <button className="tech-tag mocha"><img src={mochaLogo}/>Mocha</button>
-          <button className="tech-tag chai"><img src={chaiLogo}/>Chai</button>
-          <button className="tech-tag node"><img src={nodeLogo}/>Node.js</button>
-          <button className="tech-tag express"><img src={expressLogo}/>Express</button>
-          <button className="tech-tag html"><img src={htmlLogo}/>HTML</button>
-          <button className="tech-tag css"><img src={cssLogo}/>CSS</button>
+          <button className="tech-tag ts"><img src={typeScriptLogo} loading="lazy"/>TypeScript</button>
+          <button className="tech-tag mocha"><img src={mochaLogo} loading="lazy"/>Mocha</button>
+          <button className="tech-tag chai"><img src={chaiLogo} loading="lazy"/>Chai</button>
+          <button className="tech-tag node"><img src={nodeLogo} loading="lazy"/>Node.js</button>
+          <button className="tech-tag express"><img src={expressLogo} loading="lazy"/>Express</button>
+          <button className="tech-tag html"><img src={htmlLogo} loading="lazy"/>HTML</button>
+          <button className="tech-tag css"><img src={cssLogo} loading="lazy"/>CSS</button>
         </div>
       </div>
       <div className="project-preview">
-        <img className='sectionsinsight' src={sectionsInsightPreview} />
+        <img className='sectionsinsight' src={sectionsInsightPreview} loading="lazy"/>
       </div>
     </div>,
 
@@ -93,16 +93,16 @@ const Projects = () => {
           A website that allows students to query a B.C. biome database and visualize SQL commands throughout the process.
         </p>
         <div className="tech-row">
-          <button className="tech-tag js"><img src={javaScriptLogo}/>JavaScript</button>
-          <button className="tech-tag express"><img src={expressLogo}/>Express</button>
-          <button className="tech-tag oracle"><img src={oracleLogo}/>Oracle</button>
-          <button className="tech-tag html"><img src={htmlLogo}/>HTML</button>
-          <button className="tech-tag css"><img src={cssLogo}/>CSS</button>
-          <button className="tech-tag node"><img src={nodeLogo}/>Node.js</button>
+          <button className="tech-tag js"><img src={javaScriptLogo} loading="lazy"/>JavaScript</button>
+          <button className="tech-tag express"><img src={expressLogo} loading="lazy"/>Express</button>
+          <button className="tech-tag oracle"><img src={oracleLogo} loading="lazy"/>Oracle</button>
+          <button className="tech-tag html"><img src={htmlLogo} loading="lazy"/>HTML</button>
+          <button className="tech-tag css"><img src={cssLogo} loading="lazy"/>CSS</button>
+          <button className="tech-tag node"><img src={nodeLogo} loading="lazy"/>Node.js</button>
         </div>
       </div>
       <div className="project-preview">
-        <img className='biome' src={biomePreview} />
+        <img className='biome' src={biomePreview} loading="lazy"/>
       </div>
     </div>,
 
@@ -113,13 +113,13 @@ const Projects = () => {
           A desktop application that enables users to browse public recipes using multiple criteria, add personal recipes, and organize them into saved collections.
         </p>
         <div className="tech-row">
-          <button className="tech-tag java"><img src={javaLogo}/>Java</button>
-          <button className="tech-tag junit"><img src={junitLogo}/>JUnit</button>
-          <button className="tech-tag swing"><img src={swingLogo}/>Swing</button>
+          <button className="tech-tag java"><img src={javaLogo} loading="lazy"/>Java</button>
+          <button className="tech-tag junit"><img src={junitLogo} loading="lazy"/>JUnit</button>
+          <button className="tech-tag swing"><img src={swingLogo} loading="lazy"/>Swing</button>
         </div>
       </div>
       <div className="project-preview">
-        <img className='basil' src={basilPreview} />
+        <img className='basil' src={basilPreview} loading="lazy"/>
       </div>
     </div>
   ];

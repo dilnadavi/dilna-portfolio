@@ -29,7 +29,7 @@ if (activeTab === "red") {
     <div>
         <p className="above2022subtext">STARTED MY JOURNEY AS A BSC STUDENT AT</p>
     <div className="ubc-card">
-      <img src={ubcLogo} className="ubc-card-logo" />
+      <img src={ubcLogo} className="ubc-card-logo" loading="lazy"/>
     </div>
     </div>
   );
@@ -50,7 +50,7 @@ if (activeTab === "red") {
     activeContent = (
       <div>
         <p className="above2024subtext">CERTAIN OF MY PASSION, I TRANSFERRED INTO</p>
-        <img src={csLogo} className="cs-logo" />
+        <img src={csLogo} className="cs-logo" loading="lazy"/>
         <p className="below2024subtext">AND NEVER LOOKED BACK!</p>
       </div>
     );
