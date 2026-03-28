@@ -18,7 +18,6 @@ import ramenPoster from '../../assets/designs/webp/ramen_doodle.webp'
 const Extra = () => {
   const [selected, setSelected] = useState(null);
 
-  // RANDOM WEB IMAGES
   const designs = [
     carlLutzPoster,
     digestionPoster,
@@ -28,41 +27,43 @@ const Extra = () => {
   ];
 
   return (
-    <div className='extra-card'>
-      <div className="header-extra">
-        <p>I am also</p>
-        <h2>a designer.</h2>
+    <>
+      <div className='extra-card'>
+        <div className="header-extra">
+          <p>I am also</p>
+          <h2>a designer.</h2>
 
-        <div className="design-logos">
-          <img src={photoshopLogo}/>
-          <img src={illustratorLogo}/>
-          <img src={indesignLogo}/>
-          <img src={figmaLogo}/>
-          <img src={afterEffectsLogo}/>
-          <img src={premiereProLogo}/>
-          <img src={sonyVegasLogo}/>
-        </div>
+          <div className="design-logos">
+            <img src={photoshopLogo}/>
+            <img src={illustratorLogo}/>
+            <img src={indesignLogo}/>
+            <img src={figmaLogo}/>
+            <img src={afterEffectsLogo}/>
+            <img src={premiereProLogo}/>
+            <img src={sonyVegasLogo}/>
+          </div>
 
-        <div className="design-carousel">
-          <div className="carousel-track">
-            {designs.concat(designs).map((img, i) => (
-              <img
-                key={i}
-                src={img}
-                className="carousel-img"
-                onClick={() => setSelected(img)}
-              />
-            ))}
+          <div className="design-carousel">
+            <div className="carousel-track">
+              {designs.concat(designs).map((img, i) => (
+                <img
+                  key={i}
+                  src={img}
+                  className="carousel-img"
+                  onClick={() => setSelected(img)}
+                />
+              ))}
+            </div>
           </div>
         </div>
-
-        {selected && (
-          <div className="modal-overlay" onClick={() => setSelected(null)}>
-            <img src={selected} className="modal-image" />
-          </div>
-        )}
       </div>
-    </div>
+
+      {selected && (
+        <div className="modal-overlay" onClick={() => setSelected(null)}>
+          <img src={selected} className="modal-image" />
+        </div>
+      )}
+    </>
   )
 }
 

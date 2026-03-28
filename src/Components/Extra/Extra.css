@@ -1,3 +1,29 @@
+@keyframes appear {
+  from {
+    opacity: 0;
+    transform: scale(0.8) translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+  }
+}
+
+.header-extra p,
+.header-extra h2,
+.design-logos,
+.design-carousel {
+  opacity: 0;
+  animation: appear 2s cubic-bezier(0.34, 1.56, 0.64, 1) both;
+  animation-timeline: view();
+  animation-range: entry 0% cover 20%;
+}
+
+.header-extra p  { animation-delay: 0s; }
+.header-extra h2 { animation-delay: 0.15s; }
+.design-logos    { animation-delay: 0.3s; }
+.design-carousel { animation-delay: 0.45s; }
+
 .extra-card {
   background: transparent;
   border-radius: 16px;
@@ -43,23 +69,9 @@
   overflow: hidden;
   margin-top: 20px;
   position: relative;
-
-  -webkit-mask-image: linear-gradient(
-    to right,
-    transparent 0%,
-    black 15%,
-    black 85%,
-    transparent 100%
-  );
-  mask-image: linear-gradient(
-    to right,
-    transparent 0%,
-    black 15%,
-    black 85%,
-    transparent 100%
-  );
+  -webkit-mask-image: linear-gradient(to right, transparent 0%, black 15%, black 85%, transparent 100%);
+  mask-image: linear-gradient(to right, transparent 0%, black 15%, black 85%, transparent 100%);
 }
-
 
 .carousel-track {
   display: flex;
@@ -93,7 +105,6 @@
   height: 100svh;
   height: 100dvh;
   height: 100lvh;
-
   background: rgba(0, 0, 0, 0.6);
   display: flex;
   justify-content: center;
