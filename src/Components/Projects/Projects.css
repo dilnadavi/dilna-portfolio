@@ -43,6 +43,10 @@
   width: 90%;
 }
 
+.project-header-text a {
+  margin-left: 5px;
+}
+
 .projects-container {
   display: flex;
   flex-direction: column;
