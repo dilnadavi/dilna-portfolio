@@ -12,7 +12,8 @@
 .header-extra p,
 .header-extra h2,
 .design-logos,
-.design-carousel {
+.design-carousel,
+.view-more {
   opacity: 0;
   animation: appear 2s cubic-bezier(0.34, 1.56, 0.64, 1) both;
   animation-timeline: view();
@@ -23,6 +24,7 @@
 .header-extra h2 { animation-delay: 0.15s; }
 .design-logos    { animation-delay: 0.3s; }
 .design-carousel { animation-delay: 0.45s; }
+.view-more {animation-delay: 0.5s;}
 
 .extra-card {
   background: transparent;
@@ -122,4 +124,26 @@
 @keyframes popupFade {
   from { opacity: 0; transform: scale(0.95); }
   to { opacity: 1; transform: scale(1); }
+}
+
+.view-more {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  margin-top: 8px;
+}
+
+.view-more a {
+  font-size: 0.6rem;
+  letter-spacing: 1px;
+  color: #666666;
+  white-space: nowrap;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.view-more a:hover {
+  text-decoration: underline;
 }
