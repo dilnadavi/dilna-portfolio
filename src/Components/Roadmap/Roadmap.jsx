@@ -20,7 +20,7 @@ import gdscLogo from '../../assets/webp/gdsc_logo.webp';
 import React, { useState } from 'react';
 
 const Roadmap = () => {
-  const [activeTab, setActiveTab] = useState("blue");
+  const [activeTab, setActiveTab] = useState("pink");
 
   let activeContent;
 
