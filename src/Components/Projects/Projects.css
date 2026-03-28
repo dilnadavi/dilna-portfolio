@@ -25,7 +25,6 @@
 .projects-header,
 .projects-container,
 .projects-header-logo,
-.projects-line,
 .dots-container,
 .dot {
   animation: appear 0.5s cubic-bezier(0.34, 1.56, 0.64, 1) forwards;
@@ -58,9 +57,9 @@
 .projects-line {
   flex: 1;
   min-width: 50px;
-  max-width: 200px;
+  max-width: 100px;
   height: 0.5px;
-  background: black;
+  background: #999999;
 }
 
 .project-card {

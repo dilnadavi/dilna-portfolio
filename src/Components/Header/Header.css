@@ -98,6 +98,11 @@
   height: 26px;
 }
 
+.icon.instagram {
+  width: 23px;
+  height: 23px;
+}
+
 .icon:hover {
   transform: scale(1.15);
 }
