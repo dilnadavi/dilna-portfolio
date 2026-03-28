@@ -84,7 +84,7 @@
 .project-info { width: 300px; }
 .project-info, .project-preview { flex: 1; width: auto; } .project-preview { display: flex; justify-content: center; }
 .project-header-text { font-size: 1.2rem; font-weight: bold; margin: 0; }
-.project-description { font-size: 0.75rem; line-height: 1; margin: 1px 0; }
+.project-description { font-size: 0.75rem; color: #666666; line-height: 1; margin: 1px 0; }
 
 .tech-row {
   display: flex;
