@@ -28,6 +28,15 @@ const Roadmap = () => {
   const containerRef = useRef(null)
   const isVisibleRef = useRef(false)
 
+  useEffect(() => {
+    const images = [
+      ubcLogo, csLogo, gscLogo, ubcSmallLogo, gdscLogo,
+      blueDiamond, blueCircle, redDiamond, redCircle,
+      purpleDiamond, purpleCircle, pinkDiamond, pinkCircle,
+    ]
+    images.forEach(src => { const img = new Image(); img.src = src })
+  }, [])
+
   const startInterval = () => {
     clearInterval(intervalRef.current)
     intervalRef.current = setInterval(() => {
@@ -81,7 +90,7 @@ const Roadmap = () => {
       <div>
         <p className="above2022subtext">STARTED MY JOURNEY AS A BSC STUDENT AT</p>
         <div className="ubc-card">
-          <img src={ubcLogo} className="ubc-card-logo" loading="lazy"/>
+          <img src={ubcLogo} className="ubc-card-logo" />
         </div>
       </div>
     );
@@ -91,8 +100,7 @@ const Roadmap = () => {
     activeContent = (
       <div className="section2023">
         <p className="above2023subtext">WHILE TAKING A MANDATORY CODING ELECTIVE AS A</p>
-        <div className="biology-logo">
-        </div>
+        <div className="biology-logo"></div>
         <p className="below2023subtext">MAJOR, I DISCOVERED MY LOVE FOR COMPUTER SCIENCE.</p>
       </div>
     );
@@ -102,7 +110,7 @@ const Roadmap = () => {
     activeContent = (
       <div>
         <p className="above2024subtext">CERTAIN OF MY PASSION, I TRANSFERRED INTO</p>
-        <img src={csLogo} className="cs-logo" loading="lazy"/>
+        <img src={csLogo} className="cs-logo" />
         <p className="below2024subtext">AND NEVER LOOKED BACK!</p>
       </div>
     );
@@ -187,8 +195,7 @@ const Roadmap = () => {
           <div className="line line-3"></div>
         </div>
 
-        <div className="roadmap-content">
-        </div>
+        <div className="roadmap-content"></div>
 
         <div key={activeTab} className="tab-content fade-in">
           {activeContent}
