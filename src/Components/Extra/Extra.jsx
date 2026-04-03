@@ -60,7 +60,7 @@ const Extra = () => {
           </div>
           <div className="view-more">
           <a href="https://drive.google.com/drive/folders/1nNRqrfaIP1K25LD8flIGLJDgKfl9-cGq?usp=drive_link" target="_blank" rel="noopener noreferrer">
-            MORE
+            View More
             <img src={linkIcon} width="13" height="13" />
           </a>
         </div>

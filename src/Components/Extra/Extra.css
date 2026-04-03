@@ -128,22 +128,26 @@
 
 .view-more {
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
   width: 100%;
   margin-top: 8px;
 }
 
 .view-more a {
-  font-size: 0.6rem;
-  letter-spacing: 1px;
+  font-size: 0.7rem;
+  letter-spacing: 0.2px;
   color: #666666;
   white-space: nowrap;
   text-decoration: none;
   display: flex;
   align-items: center;
   gap: 4px;
+  background: #ffffff;
+  border-radius: 8px;
+  margin-top: 20px;
+  padding: 6px 14px;
 }
 
 .view-more a:hover {
-  text-decoration: underline;
+  background: #f0f0f0;
 }
