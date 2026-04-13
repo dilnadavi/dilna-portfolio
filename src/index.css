@@ -18,7 +18,7 @@ body {
   min-width: 360px;
   margin: 0 auto;
   padding: 30px 0;
-  border-radius: 40px 40px 0 0; /* only top corners rounded */
-  min-height: 100vh;            /* stretch to full page height */
+  border-radius: 40px 40px 0 0;
+  min-height: 100vh;      
   box-sizing: border-box;
 }
