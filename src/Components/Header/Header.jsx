@@ -82,9 +82,9 @@ const Header = () => {
               <a href="https://github.com/dilnadavi" target="_blank" rel="noopener noreferrer">
                 <img src={github_icon} className="icon github" alt="GitHub" />
               </a>
-              <a href="https://www.instagram.com/dillpicklx/" target="_blank" rel="noopener noreferrer">
+              {/* <a href="https://www.instagram.com/dillpicklx/" target="_blank" rel="noopener noreferrer">
                 <img src={instagram_icon} className="icon instagram" alt="Instagram" />
-              </a>
+              </a> */}
             </div>
           </h2>
         </div>
