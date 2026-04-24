@@ -69,7 +69,7 @@
 .biology-logo:hover::before { opacity: 0; }
 .biology-logo:hover::after  { opacity: 1; }
 
-.pink-gallery { display: flex; justify-content: center; align-items: stretch; gap: 10px; width: 360px; margin: 0 auto; }
+.pink-gallery { display: flex; justify-content: center; align-items: stretch; gap: 10px; width: min(360px, 100%); margin: 0 auto; }
 
 .pink-card {
   flex: 1;
