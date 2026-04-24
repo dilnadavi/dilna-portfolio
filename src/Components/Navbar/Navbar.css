@@ -12,10 +12,10 @@
 
 .navbar-box {
   background: #ffff;
-  border-radius: 20px;
+  border-radius: 100px;
   padding: 10px 20px;
   margin-bottom: 0px;
-  width: 300px;
+  width: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
