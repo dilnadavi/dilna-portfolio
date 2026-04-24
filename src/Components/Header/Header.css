@@ -107,6 +107,58 @@
   transform: scale(1.15);
 }
 
+.location-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 6px 0 10px 0;
+  font-size: 0.75rem;
+  color: #666;
+}
+
+.ring-container {
+  position: relative;
+  width: 14px;
+  height: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* solid dot */
+.circle {
+  width: 8px;
+  height: 8px;
+  background-color: #66ccff;
+  border-radius: 50%;
+  position: absolute;
+}
+
+/* pulse ring */
+.ringring {
+  width: 14px;
+  height: 14px;
+  border: 2px solid #66ccff;
+  border-radius: 50%;
+  position: absolute;
+  animation: pulsate 1.2s ease-out infinite;
+  opacity: 0;
+}
+
+@keyframes pulsate {
+  0% {
+    transform: scale(0.5);
+    opacity: 0.6;
+  }
+  70% {
+    transform: scale(1.6);
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
 @media (max-width: 500px) {
   .illustration {
     margin-left: 0;

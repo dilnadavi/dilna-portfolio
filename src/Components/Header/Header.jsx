@@ -72,9 +72,17 @@ const Header = () => {
 
           <h2 className="subtitle">
             <p className="about-me-description">
-              and I am a BSc Computer Science student based in
-              <span className="impact-font"> Vancouver, B.C. </span>
+              and I am a <span>BSc Computer Science </span> student at the University of British Columbia!
             </p>
+          </h2>
+
+            <div className="location-row">
+              <div className="ring-container">
+                <div className="ringring"></div>
+                <div className="circle"></div>
+              </div>
+              <span>Vancouver, B.C.</span>
+            </div>
             <div className="social-icons">
               <a href="https://www.linkedin.com/in/dilna-davi/" target="_blank" rel="noopener noreferrer">
                 <img src={linkedin_icon} className="icon" alt="LinkedIn" />
@@ -86,7 +94,6 @@ const Header = () => {
                 <img src={instagram_icon} className="icon instagram" alt="Instagram" />
               </a> */}
             </div>
-          </h2>
         </div>
 
         <div className="header-right">
