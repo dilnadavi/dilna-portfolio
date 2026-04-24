@@ -22,12 +22,12 @@
   width: 90%;
 }
 
-.projects-header-logo { width: 130px; }
+.projects-header-logo { width: 220px; }
 
 .projects-line {
   flex: 1;
   min-width: 50px;
-  max-width: 100px;
+  max-width: 50px;
   height: 0.5px;
   background: #999999;
 }

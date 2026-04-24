@@ -33,7 +33,7 @@ const Extra = () => {
       <div className='extra-card'>
         <div className="header-extra">
           <p>I am also</p>
-          <h2>a designer.</h2>
+          <h2 className='designer-text'>a designer.</h2>
 
           <div className="design-logos">
             <img src={photoshopLogo} loading="lazy"/>

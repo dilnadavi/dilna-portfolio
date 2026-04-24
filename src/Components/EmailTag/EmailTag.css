@@ -1,3 +1,10 @@
+@font-face {
+  font-family: 'Merriweather';
+  src: url('../../assets/fonts/MerriweatherBold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 @keyframes appear {
   from {
     opacity: 0;
@@ -44,6 +51,7 @@
 
 .email-tag a {
     font-size: 1.2rem;
+    
     font-weight: bold;
     color: black;
     background: linear-gradient(90deg, #f8634c, #69c4f8, #b9a4d7, #f196cb);

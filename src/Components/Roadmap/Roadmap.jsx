@@ -9,7 +9,7 @@ import ubcLogo from '../../assets/webp/ubc_logo.webp';
 
 import purpleDiamond from '../../assets/webp/purple_diamond.webp';
 import purpleCircle from '../../assets/webp/purple_circle.webp';
-import csLogo from '../../assets/webp/cs_logo.webp';
+import csLogo from '../../assets/webp/cs_logo_serif.webp';
 
 import pinkDiamond from '../../assets/webp/pink_diamond.webp';
 import pinkCircle from '../../assets/webp/pink_circle.webp';

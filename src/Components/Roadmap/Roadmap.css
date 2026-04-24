@@ -64,8 +64,8 @@
 .ubc-card-logo { width: 200px; height: auto; }
 
 .biology-logo { width: 300px; height: 80px; margin: 0 auto; position: relative; }
-.biology-logo::before { content: ""; position: absolute; inset: 0; background-image: url("../../assets/webp/biology_logo.webp"); background-size: contain; background-repeat: no-repeat; background-position: center; opacity: 1; transition: opacity 0.35s ease; }
-.biology-logo::after  { content: ""; position: absolute; inset: 0; background-image: url("../../assets/webp/biology_ani_logo.webp"); background-size: contain; background-repeat: no-repeat; background-position: center; opacity: 0; transition: opacity 0.35s ease; }
+.biology-logo::before { content: ""; position: absolute; inset: 0; background-image: url("../../assets/webp/biology_logo_serif.webp"); background-size: contain; background-repeat: no-repeat; background-position: center; opacity: 1; transition: opacity 0.35s ease; }
+.biology-logo::after  { content: ""; position: absolute; inset: 0; background-image: url("../../assets/webp/biology_ani_logo_serif.webp"); background-size: contain; background-repeat: no-repeat; background-position: center; opacity: 0; transition: opacity 0.35s ease; }
 .biology-logo:hover::before { opacity: 0; }
 .biology-logo:hover::after  { opacity: 1; }
 

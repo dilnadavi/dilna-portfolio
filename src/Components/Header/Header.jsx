@@ -3,7 +3,7 @@ import './Header.css'
 import DraggableSticker from '../DraggableSticker/DraggableSticker'
 
 import illustration from '../../assets/webp/portfolio_sketch_1.webp'
-import name_logo from '../../assets/webp/name_logo.webp'
+import name_logo from '../../assets/webp/name_logo_serif.webp'
 import linkedin_icon from '../../assets/webp/linkedin_logo.webp'
 import github_icon from '../../assets/webp/github_logo.webp'
 import instagram_icon from '../../assets/webp/instagram_logo_alt.webp'
