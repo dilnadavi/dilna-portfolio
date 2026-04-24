@@ -204,7 +204,7 @@ const Projects = () => {
     <div className="projects-container">
       <div className="projects-header">
         <div className="projects-line" />
-        <img src={projectsLogo} className="projects-header-logo" alt="projects" />
+        <img src={projectsLogo} className="projects-header-logo" draggable={false} />
         <div className="projects-line" />
       </div>
 

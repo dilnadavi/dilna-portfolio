@@ -68,6 +68,7 @@ const Header = () => {
             className="name-logo"
             src={name_logo}
             alt="name logo"
+            draggable={false}
           />
 
           <h2 className="subtitle">
@@ -85,10 +86,10 @@ const Header = () => {
             </div>
             <div className="social-icons">
               <a href="https://www.linkedin.com/in/dilna-davi/" target="_blank" rel="noopener noreferrer">
-                <img src={linkedin_icon} className="icon" alt="LinkedIn" />
+                <img src={linkedin_icon} className="icon" alt="LinkedIn" draggable={false}/>
               </a>
               <a href="https://github.com/dilnadavi" target="_blank" rel="noopener noreferrer">
-                <img src={github_icon} className="icon github" alt="GitHub" />
+                <img src={github_icon} className="icon github" alt="GitHub" draggable={false}/>
               </a>
               {/* <a href="https://www.instagram.com/dillpicklx/" target="_blank" rel="noopener noreferrer">
                 <img src={instagram_icon} className="icon instagram" alt="Instagram" />
@@ -100,7 +101,7 @@ const Header = () => {
           <img
             className="illustration"
             src={illustration}
-            alt="portfolio illustration"
+            draggable={false}
           />
         </div>
       </div>
